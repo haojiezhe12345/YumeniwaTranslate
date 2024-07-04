@@ -59,7 +59,7 @@
 ;layerType=ltAddAlpha
 ;frameGraphic=
 ;frameColor=0x000000
-;frameOpacity=128
+;frameOpacity=255
 ;marginL=8
 ;marginT=8
 ;marginR=8
