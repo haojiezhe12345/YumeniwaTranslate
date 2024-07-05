@@ -256,7 +256,7 @@
 
 [chara_mod name="sayaka" face="008"]
 
-#【沙耶香】
+#【沙耶加】
 「わっ」[p]
 
 [anim name=madoka left="-=400" time=300]
@@ -282,7 +282,7 @@
 
 [chara_mod name="sayaka" face="010"]
 
-#【沙耶香】
+#【沙耶加】
 「朝から熱い抱擁を交わす相手として、あたしたちじゃ力不足だと……」[p]
 
 [chara_mod name="madoka" face="013"]
@@ -310,7 +310,7 @@
 
 [chara_mod name="sayaka" face="003"]
 
-#【沙耶香】
+#【沙耶加】
 「お、わかる？　ふふ、さやかちゃんは大人なのだよ」[p]
 
 [chara_mod name="kyoko" face="008"]
@@ -320,7 +320,7 @@
 
 [chara_mod name="sayaka" face="009"]
 
-#【沙耶香】
+#【沙耶加】
 「なにおう！」[p]
 
 [chara_mod name="kyoko" face="004"]
@@ -385,7 +385,7 @@
 [chara_show name="madoka" face="015" time=300]
 [chara_show name="kyoko" face="011" time=300]
 
-#【沙耶香】
+#【沙耶加】
 「まどか！？」[p]
 
 #【杏子】
@@ -394,7 +394,7 @@
 #【圆】
 「……会いたい……」[p]
 
-#【沙耶香】
+#【沙耶加】
 「えっと……誰に……？」[p]
 
 #
@@ -1068,7 +1068,7 @@
 [playse storage="SE05.ogg"]
 [quake time=300]
 
-#【沙耶香】
+#【沙耶加】
 「えーいやめんかー！！」[p]
 
 [chara_mod name="madoka" face="008"]
@@ -1081,7 +1081,7 @@
 #【焰】
 「なによ美樹さやか、私たちの間に割り込まないで」[p]
 
-#【沙耶香】
+#【沙耶加】
 「教室でイチャイチャするのが悪いんでしょーが！！　つうかほむら！　やっぱりあんたまどかに手ェ出したな！？」[p]
 
 [chara_mod name="homura" face="009"]
@@ -1091,7 +1091,7 @@
 
 [chara_mod name="sayaka" face="008"]
 
-#【沙耶香】
+#【沙耶加】
 「は？」[p]
 
 [chara_mod name="kyoko" face="010"]
@@ -1107,7 +1107,7 @@
 
 [chara_mod name="sayaka" face="007"]
 
-#【沙耶香】
+#【沙耶加】
 「くっ、なんていい笑顔……！！」[p]
 
 [chara_mod name="kyoko" face="002"]
@@ -1125,7 +1125,7 @@
 #【杏子】
 「教室でイチャイチャは自重しろだけどな」[p]
 
-#【沙耶香】
+#【沙耶加】
 「人目を憚らずに甘ったるい会話してからに……バカップルかっ」[p]
 
 [chara_mod name="madoka" face="302"]
