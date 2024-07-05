@@ -32,6 +32,10 @@ $(".layer_camera").empty();
 [jump target="*mail_page"]
 
 *mail_page
+[call target="*draw_mail_page" ]
+[s]
+
+*draw_mail_page
 [free_filter]
 [freeimage layer=1]
 [cm]
@@ -77,11 +81,15 @@ $(".layer_camera").empty();
 ;[button graphic="mail_button/reply.png" target=*reply x=720 y=660 enterimg="mail_button/reply_o.png" cond="f.rep==1"]
 ;[endif]
 
-[s]
+[return]
 
 
 
 *outbox
+[call target="*draw_outbox" ]
+[s]
+
+*draw_outbox
 [free_filter]
 [freeimage layer=1]
 [cm]
@@ -113,10 +121,12 @@ $(".layer_camera").empty();
 ;[button graphic="mail_button/t_homura05.png" target=*to05 x=0 y=348 enterimg="mail_button/t_homura05_o.png"]
 ;[button graphic="mail_button/t_homura06.png" target=*to06 x=0 y=410 enterimg="mail_button/t_homura06_o.png"]
 
-[s]
+[return]
 
 
 *from01
+
+[call target="*draw_mail_page"]
 
 [ptext layer=1 name=body text="From：小焰" size=30 x=320 y=100 color=black]
 [ptext layer=1 name=body text="邮件名：艾米" size=30 x=320 y=150 color=black]
@@ -132,11 +142,13 @@ $(".layer_camera").empty();
 [jump target=*reply]
 [endif]
 
-[freeimage layer=1]
-[jump target=*mail_page]
+; [freeimage layer=1]
+; [jump target=*mail_page]
 [s]
 
 *from02
+
+[call target="*draw_mail_page"]
 
 [ptext layer=1 name=body text="From：杏子" size=30 x=320 y=100 color=black ]
 [ptext layer=1 name=body text="邮件名：无题" size=30 x=320 y=150 color=black ]
@@ -145,12 +157,14 @@ $(".layer_camera").empty();
 [ptext layer=1 name=body text="是在华夫饼上放了些奶油。" size=30 x=320 y=350 color=black ]
 [ptext layer=1 name=body text="沙耶加也赞不绝口呢。" size=30 x=320 y=400 color=black ]
 
-[freeimage layer=1]
-[jump target=*mail_page]
+; [freeimage layer=1]
+; [jump target=*mail_page]
 
 [s]
 
 *from03
+
+[call target="*draw_mail_page"]
 
 [ptext layer=1 name=body text="From：小焰" size=30 x=320 y=100 color=black ]
 [ptext layer=1 name=body text="邮件名：对不起" size=30 x=320 y=150 color=black ]
@@ -164,12 +178,14 @@ $(".layer_camera").empty();
 [jump target=*reply]
 [endif]
 
-[freeimage layer=1]
-[jump target=*mail_page]
+; [freeimage layer=1]
+; [jump target=*mail_page]
 
 [s]
 
 *from04
+
+[call target="*draw_mail_page"]
 
 [ptext layer=1 name=body text="From：麻美学姐" size=30 x=320 y=100 color=black ]
 [ptext layer=1 name=body text="邮件名：集结到我身边吧  被宿命（suming）引导着玩弄的少女们..." size=30 x=320 y=150 color=black ]
@@ -181,12 +197,14 @@ $(".layer_camera").empty();
 [ptext layer=1 name=body text="聚会地点在我家。" size=30 x=320 y=500 color=black ]
 [ptext layer=1 name=body text="等决定日期了再告诉你们。" size=30 x=320 y=550 color=black ]
 
-[freeimage layer=1]
-[jump target=*mail_page]
+; [freeimage layer=1]
+; [jump target=*mail_page]
 
 [s]
 
 *from05
+
+[call target="*draw_mail_page"]
 
 [ptext layer=1 name=body text="From：小焰" size=30 x=320 y=100 color=black ]
 [ptext layer=1 name=body text="邮件名：在游戏厅" size=30 x=320 y=150 color=black ]
@@ -200,12 +218,14 @@ $(".layer_camera").empty();
 [jump target=*reply]
 [endif]
 
-[freeimage layer=1]
-[jump target=*mail_page]
+; [freeimage layer=1]
+; [jump target=*mail_page]
 
 [s]
 
 *from06
+
+[call target="*draw_mail_page"]
 
 [ptext layer=1 name=body text="From：小渚" size=30 x=320 y=100 color=black ]
 [ptext layer=1 name=body text="邮件名：拜托的说" size=30 x=320 y=150 color=black ]
@@ -217,12 +237,14 @@ $(".layer_camera").empty();
 [ptext layer=1 name=body text="虽然邮件里说得很夸张但她只是想邀请大家来喝茶而已。" size=30 x=320 y=500 color=black ]
 [ptext layer=1 name=body text="随便回点什么就好了。拜托你的说。" size=30 x=320 y=550 color=black ]
 
-[freeimage layer=1]
-[jump target=*mail_page]
+; [freeimage layer=1]
+; [jump target=*mail_page]
 
 [s]
 
 *from07
+
+[call target="*draw_mail_page"]
 
 [ptext layer=1 name=body text="From：小焰" size=30 x=320 y=100 color=black ]
 [ptext layer=1 name=body text="邮件名：迷你西红柿" size=30 x=320 y=150 color=black ]
@@ -235,12 +257,14 @@ $(".layer_camera").empty();
 [jump target=*reply]
 [endif]
 
-[freeimage layer=1]
-[jump target=*mail_page]
+; [freeimage layer=1]
+; [jump target=*mail_page]
 
 [s]
 
 *from08
+
+[call target="*draw_mail_page"]
 
 [ptext layer=1 name=body text="From：小焰" size=30 x=320 y=100 color=black ]
 [ptext layer=1 name=body text="邮件名：小心点" size=30 x=320 y=150 color=black ]
@@ -253,12 +277,14 @@ $(".layer_camera").empty();
 [jump target=*reply]
 [endif]
 
-[freeimage layer=1]
-[jump target=*mail_page]
+; [freeimage layer=1]
+; [jump target=*mail_page]
 
 [s]
 
 *from09
+
+[call target="*draw_mail_page"]
 
 [ptext layer=1 name=body text="From：仁美" size=30 x=320 y=100 color=black ]
 [ptext layer=1 name=body text="邮件名：给圆同学" size=30 x=320 y=150 color=black ]
@@ -269,12 +295,14 @@ $(".layer_camera").empty();
 [ptext layer=1 name=body text="电影的名字是「百合花与心底的秘密」。" size=30 x=320 y=450 color=black ]
 [ptext layer=1 name=body text="哼哼，太适合描述现在的圆同学了。" size=30 x=320 y=500 color=black ]
 
-[freeimage layer=1]
-[jump target=*mail_page]
+; [freeimage layer=1]
+; [jump target=*mail_page]
 
 [s]
 
 *from10
+
+[call target="*draw_mail_page"]
 
 [ptext layer=1 name=body text="From：小焰" size=30 x=320 y=100 color=black ]
 [ptext layer=1 name=body text="邮件名：要事" size=30 x=320 y=150 color=black ]
@@ -288,14 +316,16 @@ $(".layer_camera").empty();
 [jump target=*reply]
 [endif]
 
-[freeimage layer=1]
-[jump target=*mail_page]
+; [freeimage layer=1]
+; [jump target=*mail_page]
 
 [s]
 
 
 
 *to01
+
+[call target="*draw_outbox"]
 
 ;	返信時goodフラグが立っているかで分岐
 [if exp="f.good01==1"]
@@ -313,12 +343,14 @@ $(".layer_camera").empty();
 [ptext layer=1 name=body text="晚安。" size=30 x=320 y=350 color=black ]
 [endif]
 
-[freeimage layer=1]
-[jump target=*outbox]
+; [freeimage layer=1]
+; [jump target=*outbox]
 
 [s]
 
 *to02
+
+[call target="*draw_outbox"]
 
 [if exp="f.good02==1"]
 [ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
@@ -335,12 +367,14 @@ $(".layer_camera").empty();
 [ptext layer=1 name=body text="小焰也随心所欲就好了。" size=30 x=320 y=350 color=black ]
 [endif]
 
-[freeimage layer=1]
-[jump target=*outbox]
+; [freeimage layer=1]
+; [jump target=*outbox]
 
 [s]
 
 *to03
+
+[call target="*draw_outbox"]
 
 [if exp="f.good03==1"]
 [ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
@@ -359,12 +393,14 @@ $(".layer_camera").empty();
 [ptext layer=1 name=body text="光听就很开心。" size=30 x=320 y=450 color=black ]
 [endif]
 
-[freeimage layer=1]
-[jump target=*outbox]
+; [freeimage layer=1]
+; [jump target=*outbox]
 
 [s]
 
 *to04
+
+[call target="*draw_outbox"]
 
 [if exp="f.good04==1"]
 [ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
@@ -382,12 +418,14 @@ $(".layer_camera").empty();
 [ptext layer=1 name=body text="被不肯放弃的达也吃掉了。" size=30 x=320 y=350 color=black ]
 [endif]
 
-[freeimage layer=1]
-[jump target=*outbox]
+; [freeimage layer=1]
+; [jump target=*outbox]
 
 [s]
 
 *to05
+
+[call target="*draw_outbox"]
 
 [if exp="f.good05==1"]
 [ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
@@ -405,12 +443,14 @@ $(".layer_camera").empty();
 [ptext layer=1 name=body text="ほむらちゃんがはみ出してても教えてあげないんだから。" size=30 x=320 y=350 color=black ]
 [endif]
 
-[freeimage layer=1]
-[jump target=*outbox]
+; [freeimage layer=1]
+; [jump target=*outbox]
 
 [s]
 
 *to06
+
+[call target="*draw_outbox"]
 
 [if exp="f.good06==1"]
 [ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
@@ -428,8 +468,8 @@ $(".layer_camera").empty();
 [ptext layer=1 name=body text="我还拍了照。" size=30 x=320 y=400 color=black ]
 [endif]
 
-[freeimage layer=1]
-[jump target=*outbox]
+; [freeimage layer=1]
+; [jump target=*outbox]
 
 [s]
 
@@ -442,7 +482,7 @@ $(".layer_camera").empty();
 [eval exp="f.homulove = 1"]
 [endif]
 
-[freeimage layer=1]
+; [freeimage layer=1]
 [cm]
 [wait time=1000]
 [filter layer="base" brightness=70]
