@@ -138,12 +138,12 @@ $(".layer_camera").empty();
 
 *from02
 
-[ptext layer=1 name=body text="From：杏子ちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：無題" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="From：杏子" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="邮件名：无题" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="すんげぇうまい食い物見つけたぞ！！" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="ワッフルの上にクリームがてんこ盛りなんだ。" size=30 x=320 y=350 color=black ]
-[ptext layer=1 name=body text="さやかも大絶賛してたぜ。" size=30 x=320 y=400 color=black ]
+[ptext layer=1 name=body text="我找到超好吃的东西了哦！！" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="是在华夫饼上放了些奶油。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="沙耶加也赞不绝口呢。" size=30 x=320 y=400 color=black ]
 
 [freeimage layer=1]
 [jump target=*mail_page]
@@ -153,10 +153,10 @@ $(".layer_camera").empty();
 *from03
 
 [ptext layer=1 name=body text="From：小焰" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：ごめんなさい" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="邮件名：对不起" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="からかいが過ぎたかなって少し反省してる。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="ごめんなさい。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="我反省自己开玩笑过头了。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="对不起" size=30 x=320 y=350 color=black ]
 
 [if exp="f.t02==1"]
 [else]
@@ -171,15 +171,15 @@ $(".layer_camera").empty();
 
 *from04
 
-[ptext layer=1 name=body text="From：マミさん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：集え我が元へ　導かれし宿命（さだめ）に翻弄されし乙女達よ..." size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="From：麻美学姐" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="邮件名：集结到我身边吧  被宿命（suming）引导着玩弄的少女们..." size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="近々みんなで集まりましょう。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="話し合いたいことがあるの。" size=30 x=320 y=350 color=black ]
-[ptext layer=1 name=body text="とても重要な議題よ。" size=30 x=320 y=400 color=black ]
-[ptext layer=1 name=body text="私たちの今後を左右するかも。" size=30 x=320 y=450 color=black ]
-[ptext layer=1 name=body text="場所は私の家。" size=30 x=320 y=500 color=black ]
-[ptext layer=1 name=body text="日時は調整するから希望日時を教えてね。" size=30 x=320 y=550 color=black ]
+[ptext layer=1 name=body text="最近大家来次聚会吧。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="我有像和你们商量的事。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="是非常重要的话题" size=30 x=320 y=400 color=black ]
+[ptext layer=1 name=body text="可能会决定我们今后的命运。" size=30 x=320 y=450 color=black ]
+[ptext layer=1 name=body text="聚会地点在我家。" size=30 x=320 y=500 color=black ]
+[ptext layer=1 name=body text="等决定日期了再告诉你们。" size=30 x=320 y=550 color=black ]
 
 [freeimage layer=1]
 [jump target=*mail_page]
@@ -189,10 +189,10 @@ $(".layer_camera").empty();
 *from05
 
 [ptext layer=1 name=body text="From：小焰" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：ゲーセンって" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="邮件名：在游戏厅" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="ゲーセンってとっても楽しいのね。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="今までろくに足を踏み入れなかったことを軽く悔やんだわ。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="游戏厅很好玩呢。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="稍微后悔至今为止都没去过游戏厅了。" size=30 x=320 y=350 color=black ]
 
 [if exp="f.t03==1"]
 [else]
@@ -207,15 +207,15 @@ $(".layer_camera").empty();
 
 *from06
 
-[ptext layer=1 name=body text="From：なぎさちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：お願いなのです" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="From：小渚" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="邮件名：拜托的说" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="まどか、お願いがあるのです。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="マミからお誘いかかったら、ちゃんとお返事してあげてほしいのです。" size=30 x=320 y=350 color=black ]
-[ptext layer=1 name=body text="杏子あてに何度か送ってるけど返事がこないって悲しい顔してて、" size=30 x=320 y=400 color=black ]
-[ptext layer=1 name=body text="ハンバーグは焦がすしチーズは買い忘れるしと散々なのです。" size=30 x=320 y=450 color=black ]
-[ptext layer=1 name=body text="大げさなメールがきてもそれは単にみんなとお茶したいだけだから" size=30 x=320 y=500 color=black ]
-[ptext layer=1 name=body text="気軽に返してあげてほしいのです。頼んだのです。" size=30 x=320 y=550 color=black ]
+[ptext layer=1 name=body text="圆，我想拜托你。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="要是麻美邀请你了，希望你能够认真回复她。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="因为她给杏子发了好多消息都没有一点回复很伤心，" size=30 x=320 y=400 color=black ]
+[ptext layer=1 name=body text="汉堡烤焦了奶酪也忘记买了都乱成一团的说。" size=30 x=320 y=450 color=black ]
+[ptext layer=1 name=body text="虽然邮件里说得很夸张但她只是想邀请大家来喝茶而已。" size=30 x=320 y=500 color=black ]
+[ptext layer=1 name=body text="随便回点什么就好了。拜托你的说。" size=30 x=320 y=550 color=black ]
 
 [freeimage layer=1]
 [jump target=*mail_page]
@@ -225,9 +225,9 @@ $(".layer_camera").empty();
 *from07
 
 [ptext layer=1 name=body text="From：小焰" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：ミニトマト" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="邮件名：迷你西红柿" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="ミニトマトにほむら案はやめてくれたかしら？" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="小焰放弃搞迷你西红柿了吗？" size=30 x=320 y=300 color=black ]
 
 [if exp="f.t04==1"]
 [else]
@@ -243,9 +243,9 @@ $(".layer_camera").empty();
 *from08
 
 [ptext layer=1 name=body text="From：小焰" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：気をつけて" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="邮件名：小心点" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="次からはハミパンに気をつけて。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="下次小心点蜂蜜面包。" size=30 x=320 y=300 color=black ]
 
 [if exp="f.t05==1"]
 [else]
@@ -260,14 +260,14 @@ $(".layer_camera").empty();
 
 *from09
 
-[ptext layer=1 name=body text="From：仁美ちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：まどかさんへ" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="From：仁美" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="邮件名：给圆同学" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="お父様の取引先の方から映画のチケットを二枚いただきましたの。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="よろしければまどかさんに差し上げますわ。" size=30 x=320 y=350 color=black ]
-[ptext layer=1 name=body text="暁美さんを誘って是非に。" size=30 x=320 y=400 color=black ]
-[ptext layer=1 name=body text="映画のタイトルは「秘めた想いとゆりの花」ですわ。" size=30 x=320 y=450 color=black ]
-[ptext layer=1 name=body text="うふふ、今のまどかさんにぴったりですわね。" size=30 x=320 y=500 color=black ]
+[ptext layer=1 name=body text="家父从客户那得到了两张电影票。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="要是愿意接受的话就给圆同学了。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="请务必邀请晓美同学去看。" size=30 x=320 y=400 color=black ]
+[ptext layer=1 name=body text="电影的名字是「百合花与心底的秘密」。" size=30 x=320 y=450 color=black ]
+[ptext layer=1 name=body text="哼哼，太适合描述现在的圆同学了。" size=30 x=320 y=500 color=black ]
 
 [freeimage layer=1]
 [jump target=*mail_page]
@@ -277,10 +277,10 @@ $(".layer_camera").empty();
 *from10
 
 [ptext layer=1 name=body text="From：小焰" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：大事なこと" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="邮件名：要事" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="大事なことを聞き忘れたわ。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="クマちゃんはいつ返せばいい？" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="我刚刚忘了一件很重要的事。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="小熊什么时候还才好呢？" size=30 x=320 y=350 color=black ]
 
 [if exp="f.t06==1"]
 [else]
@@ -299,18 +299,18 @@ $(".layer_camera").empty();
 
 ;	返信時goodフラグが立っているかで分岐
 [if exp="f.good01==1"]
-[ptext layer=1 name=body text="To：ほむらちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：re：エイミー" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="件名：re：艾米" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="夜の学校は怖かったけど、ちょっぴり楽しくもあったかなーって。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="ほむらちゃんがいたからだね。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="晚上的学校虽然有些可怕，但有点点有趣。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="是因为有小焰在呢。" size=30 x=320 y=350 color=black ]
 
 [else]
-[ptext layer=1 name=body text="To：ほむらちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：re：エイミー" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="件名：re：艾米" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="わたしたちもエイミーも大冒険だったね。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="おやすみなさい。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="对于我们和艾米都是大冒险呢。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="晚安。" size=30 x=320 y=350 color=black ]
 [endif]
 
 [freeimage layer=1]
@@ -321,18 +321,18 @@ $(".layer_camera").empty();
 *to02
 
 [if exp="f.good02==1"]
-[ptext layer=1 name=body text="To：ほむらちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：re：ごめんなさい" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="件名：re：对不起" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="いいよ、気にしないで。イヤな思いをしたわけじゃないんだし。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="明日顔を見たら照れちゃいそうだけどね。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="没事的 ，别在意。我没有想些不该想的东西。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="就是明天见到的话会害羞的。" size=30 x=320 y=350 color=black ]
 
 [else]
-[ptext layer=1 name=body text="To：ほむらちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：re：ごめんなさい" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="件名：re：对不起" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="バツとして、パパ手作りのクッキーをお腹いっぱい食べてもらいます。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="ほむらちゃんもプニプニになっちゃえばいいんだよ。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="作为惩罚，我吃了很多爸爸做的曲奇" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="小焰也随心所欲就好了。" size=30 x=320 y=350 color=black ]
 [endif]
 
 [freeimage layer=1]
@@ -343,20 +343,20 @@ $(".layer_camera").empty();
 *to03
 
 [if exp="f.good03==1"]
-[ptext layer=1 name=body text="To：ほむらちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：re：ゲーセンって" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="件名：re：艾米" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="もっと大きなゲーセンが風見野市にあるんだって。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="今度二人で行ってみる？" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="听说风见野有更大的游戏厅。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="这次就我们两去吧？" size=30 x=320 y=350 color=black ]
 
 [else]
-[ptext layer=1 name=body text="To：ほむらちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：re：ゲーセンって" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="件名：re：艾米" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="みんなでワイワイできるからね。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="次はカラオケ行こっか。" size=30 x=320 y=350 color=black ]
-[ptext layer=1 name=body text="みんな歌う傾向バラバラだから、" size=30 x=320 y=400 color=black ]
-[ptext layer=1 name=body text="聞いてるだけでも楽しいよ。" size=30 x=320 y=450 color=black ]
+[ptext layer=1 name=body text="大家一起去就太热闹了。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="下次去卡拉OK吧。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="大家一唱歌就停不下来了，" size=30 x=320 y=400 color=black ]
+[ptext layer=1 name=body text="光听就很开心。" size=30 x=320 y=450 color=black ]
 [endif]
 
 [freeimage layer=1]
@@ -367,19 +367,19 @@ $(".layer_camera").empty();
 *to04
 
 [if exp="f.good04==1"]
-[ptext layer=1 name=body text="To：ほむらちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：re：ミニトマト" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="件名：re：迷你西红柿" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="ミニトマトはやめてぬいぐるみにしたよ。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="この前ゲーセンで取ってくれたサバトラちゃんに、" size=30 x=320 y=350 color=black ]
-[ptext layer=1 name=body text="ほむらちゃんって命名します。" size=30 x=320 y=400 color=black ]
+[ptext layer=1 name=body text="迷你西红柿不要，换成玩偶了。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="之前在游戏厅拿到的萨巴特拉，" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="这是小焰取的名字。" size=30 x=320 y=400 color=black ]
 
 [else]
-[ptext layer=1 name=body text="To：ほむらちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：re：ミニトマト" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="件名：re：迷你西红柿" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="続行です。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="諦めてタツヤに食べられてね。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="还有。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="被不肯放弃的达也吃掉了。" size=30 x=320 y=350 color=black ]
 [endif]
 
 [freeimage layer=1]
@@ -390,18 +390,18 @@ $(".layer_camera").empty();
 *to05
 
 [if exp="f.good05==1"]
-[ptext layer=1 name=body text="To：ほむらちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：re：気をつけて" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="件名：re：小心点" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="せっかく忘れていたのに思い出させないでよー！！" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="いいもん、またはみ出してたら直してもらうから。" size=30 x=320 y=350 color=black ]
-[ptext layer=1 name=body text="今度は普通に直してね？" size=30 x=320 y=400 color=black ]
+[ptext layer=1 name=body text="好不容易忘记的事别让我想不起来了啊！！" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="可以的，就重新伸手改回来就好了。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="这次就普通恢复吧？" size=30 x=320 y=400 color=black ]
 
 [else]
-[ptext layer=1 name=body text="To：ほむらちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：re：気をつけて" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="件名：re：小心点" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="もう、やめてよぅ……" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="够了，别这样……" size=30 x=320 y=300 color=black ]
 [ptext layer=1 name=body text="ほむらちゃんがはみ出してても教えてあげないんだから。" size=30 x=320 y=350 color=black ]
 [endif]
 
@@ -413,19 +413,19 @@ $(".layer_camera").empty();
 *to06
 
 [if exp="f.good06==1"]
-[ptext layer=1 name=body text="To：ほむらちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：re：大事なこと" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="件名：re：要事" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="いつでもいいよ。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="什么时候都行。" size=30 x=320 y=300 color=black ]
 [ptext layer=1 name=body text="わたしだと思って大切にしてね。" size=30 x=320 y=350 color=black ]
 
 [else]
-[ptext layer=1 name=body text="To：ほむらちゃん" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="件名：re：大事なこと" size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
+[ptext layer=1 name=body text="件名：re：要事" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="いつでもいいよ。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="ところでほむらちゃんの寝顔、すっごくかわいいね。" size=30 x=320 y=350 color=black ]
-[ptext layer=1 name=body text="写真撮っちゃった。" size=30 x=320 y=400 color=black ]
+[ptext layer=1 name=body text="什么时候都行。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="说起来小焰的睡颜，非常可爱呢。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="我还拍了照。" size=30 x=320 y=400 color=black ]
 [endif]
 
 [freeimage layer=1]
@@ -448,36 +448,36 @@ $(".layer_camera").empty();
 [filter layer="base" brightness=70]
 [filter layer="0" brightness=70]
 [wait time=500]
-[ptext layer=1 text="なんて返信しようかな？" size=30 x=520 y=200 color=white time=500]
+[ptext layer=1 text="为什么回信了？" size=30 x=520 y=200 color=white time=500]
 [wait time=500]
 
 [if exp="f.rep==1"]
-[glink target="to01bad" text="おやすみなさい" size=20 width="500" y=400 color=pink]
-[glink target="to01good" text="怖かったけど楽しかった" size=20 width="500" y=500 color=pink]
+[glink target="to01bad" text="晚安" size=20 width="500" y=400 color=pink]
+[glink target="to01good" text="虽然很吓人但还是很开心。" size=20 width="500" y=500 color=pink]
 [s]
 
 [elsif exp="f.rep==2"]
-[glink target="to02bad" text="ほむらちゃんもプニプニになっちゃえばいいんだよ" size=20 width="500" y=400 color=pink]
-[glink target="to02good" text="いいよ、気にしないで" size=20 width="500" y=500 color=pink]
+[glink target="to02bad" text="小焰也随心所欲就好了" size=20 width="500" y=400 color=pink]
+[glink target="to02good" text="没事的，别在意。" size=20 width="500" y=500 color=pink]
 [s]
 
 [elsif exp="f.rep==3"]
-[glink target="to03bad" text="次はみんなでカラオケに" size=20 width="500" y=400 color=pink]
-[glink target="to03good" text="今度は二人で……" size=20 width="500" y=500 color=pink]
+[glink target="to03bad" text="下次大家一起去卡拉OK" size=20 width="500" y=400 color=pink]
+[glink target="to03good" text="这次我们两人……" size=20 width="500" y=500 color=pink]
 [s]
 
 [elsif exp="f.rep==4"]
-[glink target="to04bad" text="続行です" size=20 width="500" y=400 color=pink]
-[glink target="to04good" text="ミニトマトはやめてぬいぐるみにしたよ" size=20 width="500" y=500 color=pink]
+[glink target="to04bad" text="还有" size=20 width="500" y=400 color=pink]
+[glink target="to04good" text="迷你西红柿不要，换成玩偶了。" size=20 width="500" y=500 color=pink]
 [s]
 
 [elsif exp="f.rep==5"]
 [glink target="to05bad" text="ほむらちゃんがはみ出してても教えてあげないんだから" size=20 width="500" y=400 color=pink]
-[glink target="to05good" text="今度は普通に直してね" size=20 width="500" y=500 color=pink]
+[glink target="to05good" text="这次就普通恢复吧？" size=20 width="500" y=500 color=pink]
 [s]
 
 [elsif exp="f.rep==6"]
-[glink target="to06bad" text="ほむらちゃんの寝顔、すっごくかわいいね" size=20 width="500" y=400 color=pink]
+[glink target="to06bad" text="说起来小焰的睡颜，非常可爱呢。" size=20 width="500" y=400 color=pink]
 [glink target="to06good" text="わたしだと思って大切にしてね" size=20 width="500" y=500 color=pink]
 [s]
 
@@ -498,9 +498,9 @@ $(".layer_camera").empty();
 [eval exp="f.t01 = 1"]
 [freeimage layer=1]
 [wait time=500]
-[mtext layer=1 text="送信中　．．．" size=40 x=520 y=200 color=white time=500]
+[mtext layer=1 text="发送中　．．．" size=40 x=520 y=200 color=white time=500]
 [playse storage="SE50.ogg"]
-[mtext layer=1 text="送信しました" size=40 x=520 y=200 color=white time=300 in_effect="fadeInUp"]
+[mtext layer=1 text="已发送" size=40 x=520 y=200 color=white time=300 in_effect="fadeInUp"]
 
 [jump target=*to01]
 [s]
@@ -513,9 +513,9 @@ $(".layer_camera").empty();
 [eval exp="f.t02 = 1"]
 [freeimage layer=1]
 [wait time=500]
-[mtext layer=1 text="送信中　．．．" size=40 x=520 y=200 color=white time=500]
+[mtext layer=1 text="发送中　．．．" size=40 x=520 y=200 color=white time=500]
 [playse storage="SE50.ogg"]
-[mtext layer=1 text="送信しました" size=40 x=520 y=200 color=white time=300 in_effect="fadeInUp"]
+[mtext layer=1 text="已发送" size=40 x=520 y=200 color=white time=300 in_effect="fadeInUp"]
 
 [jump target=*to02]
 [s]
@@ -528,9 +528,9 @@ $(".layer_camera").empty();
 [eval exp="f.t03 = 1"]
 [freeimage layer=1]
 [wait time=500]
-[mtext layer=1 text="送信中　．．．" size=40 x=520 y=200 color=white time=500]
+[mtext layer=1 text="发送中　．．．" size=40 x=520 y=200 color=white time=500]
 [playse storage="SE50.ogg"]
-[mtext layer=1 text="送信しました" size=40 x=520 y=200 color=white time=300 in_effect="fadeInUp"]
+[mtext layer=1 text="已发送" size=40 x=520 y=200 color=white time=300 in_effect="fadeInUp"]
 
 [jump target=*to03]
 [s]
@@ -543,9 +543,9 @@ $(".layer_camera").empty();
 [eval exp="f.t04 = 1"]
 [freeimage layer=1]
 [wait time=500]
-[mtext layer=1 text="送信中　．．．" size=40 x=520 y=200 color=white time=500]
+[mtext layer=1 text="发送中　．．．" size=40 x=520 y=200 color=white time=500]
 [playse storage="SE50.ogg"]
-[mtext layer=1 text="送信しました" size=40 x=520 y=200 color=white time=300 in_effect="fadeInUp"]
+[mtext layer=1 text="已发送" size=40 x=520 y=200 color=white time=300 in_effect="fadeInUp"]
 
 [jump target=*to04]
 [s]
@@ -558,9 +558,9 @@ $(".layer_camera").empty();
 [eval exp="f.t05 = 1"]
 [freeimage layer=1]
 [wait time=500]
-[mtext layer=1 text="送信中　．．．" size=40 x=520 y=200 color=white time=500]
+[mtext layer=1 text="发送中　．．．" size=40 x=520 y=200 color=white time=500]
 [playse storage="SE50.ogg"]
-[mtext layer=1 text="送信しました" size=40 x=520 y=200 color=white time=300 in_effect="fadeInUp"]
+[mtext layer=1 text="已发送" size=40 x=520 y=200 color=white time=300 in_effect="fadeInUp"]
 
 [jump target=*to05]
 [s]
@@ -573,9 +573,9 @@ $(".layer_camera").empty();
 [eval exp="f.t06 = 1"]
 [freeimage layer=1]
 [wait time=500]
-[mtext layer=1 text="送信中　．．．" size=40 x=520 y=200 color=white time=500]
+[mtext layer=1 text="发送中　．．．" size=40 x=520 y=200 color=white time=500]
 [playse storage="SE50.ogg"]
-[mtext layer=1 text="送信しました" size=40 x=520 y=200 color=white time=300 in_effect="fadeInUp"]
+[mtext layer=1 text="已发送" size=40 x=520 y=200 color=white time=300 in_effect="fadeInUp"]
 
 [jump target=*to06]
 [s]
