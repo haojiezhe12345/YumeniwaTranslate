@@ -146,12 +146,24 @@ body {
 
 .menu_item {
     position: relative;
-    margin-top: 2%;
+    display: inline-block;
+    margin: 10px;
     text-align: center;
 }
 
 .menu_item img {
     cursor: pointer;
+    display: block;
+    width: 360px;
+}
+
+.menu_item.menu_close {
+    float: right;
+    margin: 16px;
+}
+
+.menu_item.menu_close img {
+    width: 160px;
 }
 
 /* スクロールボタン */
@@ -233,7 +245,7 @@ body {
 .area_save_list {
     display: block;
     width: 1100px;
-    height: 520px;
+    height: 470px;
     margin: 30px 0 0 0;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
@@ -247,8 +259,8 @@ body {
 }
 
 .area_save_list::-webkit-scrollbar-thumb {
-    border-radius: 0;
-    background: #0f60ea;
+    border-radius: 6px;
+    background: rgb(255, 105, 180);
 }
 
 .area_save_list::-webkit-scrollbar-track {
@@ -284,7 +296,7 @@ body {
 }
 
 .save_list_item:hover {
-    background-color: rgba(153, 219, 255, 0.5);
+    background-color: rgba(255, 105, 180, 0.25);
 }
 
 /* セーブデータのサムネイル */
@@ -333,7 +345,7 @@ body {
     margin: 0;
     padding: 0 0 0 20px;
     line-height: 1;
-    color: #02abe6;
+    color: rgb(255, 105, 180);
     font-weight: bold;
     box-sizing: border-box;
 }
