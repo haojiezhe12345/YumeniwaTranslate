@@ -217,7 +217,7 @@ body {
 
 .log_body::-webkit-scrollbar-thumb {
     border-radius: 0;
-    background: #0f60ea;
+    background: rgb(255, 105, 180);
 }
 
 .log_body::-webkit-scrollbar-track {
