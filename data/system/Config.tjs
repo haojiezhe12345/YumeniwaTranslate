@@ -34,8 +34,14 @@
 ;configVisible=true
 ;configLeft=-1
 ;configTop=-1
-;configSave=file
+
+// use webstorage for savedata
+//
+;configSave=webstorage
 ;configThumbnail=true
+;configThumbnailQuality = middle
+;configThumbnailScale = 0.3
+
 ;configSaveSlotNum=5
 ;maxBackLogNum=50
 ;autoRecordLabel=false
