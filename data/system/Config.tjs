@@ -34,9 +34,15 @@
 ;configVisible=true
 ;configLeft=-1
 ;configTop=-1
-;configSave=file
+
+// use webstorage for savedata
+//
+;configSave=webstorage
 ;configThumbnail=true
-;configSaveSlotNum=5
+;configThumbnailQuality = middle
+;configThumbnailScale = 0.3
+;configSaveSlotNum=6
+
 ;maxBackLogNum=50
 ;autoRecordLabel=false
 ;unReadTextSkip=false
@@ -73,7 +79,7 @@
 ;defaultFontSize=28
 ;defaultLineSpacing=6
 ;defaultPitch=0
-;userFace=メイリオ
+;userFace=Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif
 ;defaultChColor=0xffffff
 ;defaultBold=false
 ;defaultRubySize=10
