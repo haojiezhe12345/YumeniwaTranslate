@@ -8,20 +8,20 @@
 
 
 ;マウスホイール下でクリックと同じ処理をするスクリプト
-[iscript]
-var mousewheelevent = 'onwheel' in document ? 'wheel' : 'onmousewheel' in document ? 'mousewheel' : 'DOMMouseScroll';    
-$(document).on(mousewheelevent,function(e){
-e.preventDefault();
-var delta = e.originalEvent.deltaY ? -(e.originalEvent.deltaY) : e.originalEvent.wheelDelta ? e.originalEvent.wheelDelta : -(e.originalEvent.detail);
-if (delta < 0){
-// マウスホイールを下にスクロールしたときの処理を記載
-$(".layer_event_click").trigger("click");
-;} else {
-;// マウスホイールを上にスクロールしたときの処理を記載
-;TG.menu.displayLog();
-}
-});
-[endscript]
+; [iscript]
+; var mousewheelevent = 'onwheel' in document ? 'wheel' : 'onmousewheel' in document ? 'mousewheel' : 'DOMMouseScroll';    
+; $(document).on(mousewheelevent,function(e){
+; e.preventDefault();
+; var delta = e.originalEvent.deltaY ? -(e.originalEvent.deltaY) : e.originalEvent.wheelDelta ? e.originalEvent.wheelDelta : -(e.originalEvent.detail);
+; if (delta < 0){
+; // マウスホイールを下にスクロールしたときの処理を記載
+; $(".layer_event_click").trigger("click");
+; ;} else {
+; ;// マウスホイールを上にスクロールしたときの処理を記載
+; ;TG.menu.displayLog();
+; }
+; });
+; [endscript]
 
 
 
@@ -340,7 +340,7 @@ $(".layer_event_click").trigger("click");
 ;[glink storage=scenario09_ep07.ks text="エピソード7" size=20 width=500 x=30 y=580 color=blue  ]
 ;[glink storage=scenario10_im04sayaka.ks text="幕間・さやか" size=20 width=500 x=30 y=640 color=blue  ]
 
-;[glink storage=scenario11_ep05.ks text="エピソード5" size=20 width=500 x=640 y=100 color=blue  ]
+;[glink storage=scenario11_ep05_01.ks text="エピソード5" size=20 width=500 x=640 y=100 color=blue  ]
 ;[glink storage=scenario12_im05madoka.ks text="幕間・マドカ" size=20 width=500 x=640 y=160 color=blue  ]
 ;[glink storage=scenario13_ep06.ks text="エピソード6" size=20 width=500 x=640 y=220 color=blue  ]
 ;[glink storage=scenario14_ten01.ks text="シナリオ転1" size=20 width=500 x=640 y=280 color=blue  ]
