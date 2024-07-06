@@ -43,7 +43,10 @@
 [button x=866 y=405 graphic="title_icon/omake01.png" enterimg="title_icon/omake02.png" storage="cg.ks"]
 [endif]
 
+; do not show exit if running in browser
+[if exp="location.protocol != 'http:' && location.protocol != 'https:'"]
 [button x=866 y=450 graphic="title_icon/end01.png" enterimg="title_icon/end02.png" target="end"]
+[endif]
 
 [s]
 
