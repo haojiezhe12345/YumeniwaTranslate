@@ -14,7 +14,9 @@
 
 [bg storage="config_back.png" time=100]
 [layopt layer=1 visible=true]
-[ptext layer=1 page=fore text="おまけモード" x=500 y=20 size=42 color=0xA8401C visible=true]
+; [ptext layer=1 page=fore text="おまけモード" x=500 y=20 size=42 color=0xA8401C visible=true]
+
+[image layer=1 visible=true folder="image" storage="label_recollection.png" x=3 y=3]
 
 
 *cgpage
