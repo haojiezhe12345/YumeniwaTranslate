@@ -41,8 +41,8 @@
 ;configThumbnail=true
 ;configThumbnailQuality = middle
 ;configThumbnailScale = 0.3
+;configSaveSlotNum=6
 
-;configSaveSlotNum=5
 ;maxBackLogNum=50
 ;autoRecordLabel=false
 ;unReadTextSkip=false
