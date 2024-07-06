@@ -40,7 +40,7 @@
 
 ;クリアフラグonでおまけボタン追加の処理
 [if exp="sf.clear==true"]
-[button x=866 y=405 graphic="title_icon/omake01.png" enterimg="title_icon/omake02.png" storage=cg.ks"]
+[button x=866 y=405 graphic="title_icon/omake01.png" enterimg="title_icon/omake02.png" storage="cg.ks"]
 [endif]
 
 [button x=866 y=450 graphic="title_icon/end01.png" enterimg="title_icon/end02.png" target="end"]
