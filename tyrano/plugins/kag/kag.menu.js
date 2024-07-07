@@ -69,7 +69,8 @@ tyrano.plugin.kag.menu = {
                 layer_menu.hide();
                 tyrano.plugin.kag.ftag.startTag("sleepgame", {
                     storage: "mail.ks",
-                    target: "start"
+                    target: "start",
+                    next: false,
                 });
             });
             layer_menu.find(".menu_log").click(function (e) {
