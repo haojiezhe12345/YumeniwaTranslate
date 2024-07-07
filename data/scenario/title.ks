@@ -48,6 +48,9 @@
 [button x=866 y=450 graphic="title_icon/end01.png" enterimg="title_icon/end02.png" target="end"]
 [endif]
 
+; debug mode notice
+[glink text="开发者模式已启用。点击此处禁用" color="red" size="20" x=450 y=230 target="*disable_dev" cond="sf.debug"]
+
 [s]
 
 *gamestart
@@ -68,6 +71,8 @@
 [s]
 
 
+*disable_dev
+[eval exp="sf.debug = false; location.reload()"]
 
 
 

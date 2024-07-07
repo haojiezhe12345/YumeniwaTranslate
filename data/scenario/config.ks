@@ -26,7 +26,8 @@
 
 [cm]
 [bg time=300 storage="config_back.png"]
-[ptext layer=1 page=fore text="Game Config" x=500 y=20 size=42 color=0xA8401C visible=true]
+; [ptext layer=1 page=fore text="Game Config" x=500 y=20 size=42 color=0xA8401C visible=true]
+[button name="game_config_title" fix="true" target="*enable_devmode" graphic="config/title.png" x=500 y=20]
 [button graphic="back_title.gif" target="*backtitle" x=1030 y=20 ]
 @jump target="*config_page"
 
@@ -209,3 +210,14 @@ $(".auto_"+tf.set_auto_speed).css("top",390);
 [return]
 
 
+*enable_devmode
+[eval exp="tf.devclicks = tf.devclicks + 1" cond="tf.devclicks > 0"]
+[eval exp="tf.devclicks = 1" cond="!tf.devclicks > 0"]
+[dialog type="confirm" text="要启用开发者模式吗？" target="*enable_devmode_ok" target_cancel="*enable_devmode_cancel" cond="tf.devclicks >= 5"]
+*enable_devmode_cancel
+[return]
+
+*enable_devmode_ok
+[eval exp="sf.debug = true"]
+[clearstack]
+[jump target="*backtitle"]

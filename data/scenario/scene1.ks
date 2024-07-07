@@ -329,35 +329,38 @@
 
 
 ;ここからデバッグ用シナリオジャンプ
-;[glink storage=scenario01_prologue.ks text="プロローグ" size=20 width=500 x=30 y=100 color=blue  ]
-;[glink storage=scenario02_ki.ks text="シナリオ起" size=20 width=500 x=30 y=160 color=blue  ]
-;[glink storage=scenario03_ep01.ks text="エピソード1" size=20 width=500 x=30 y=220 color=blue  ]
-;[glink storage=scenario04_im01kyoko.ks text="幕間・杏子" size=20 width=500 x=30 y=280 color=blue  ]
-;[glink storage=scenario05_ep02.ks text="エピソード2" size=20 width=500 x=30 y=340 color=blue  ]
-;[glink storage=scenario06_im02mami.ks text="幕間・マミ" size=20 width=500 x=30 y=400 color=blue  ]
-;[glink storage=scenario07_ep03.ks text="エピソード3" size=20 width=500 x=30 y=460 color=blue  ]
-;[glink storage=scenario08_im03nagisa.ks text="幕間・なぎさ" size=20 width=500 x=30 y=520 color=blue  ]
-;[glink storage=scenario09_ep07.ks text="エピソード7" size=20 width=500 x=30 y=580 color=blue  ]
-;[glink storage=scenario10_im04sayaka.ks text="幕間・さやか" size=20 width=500 x=30 y=640 color=blue  ]
+[if exp="sf.debug"]
+[glink storage=scenario01_prologue.ks text="プロローグ" size=20 width=500 x=30 y=100 color=blue  ]
+[glink storage=scenario02_ki.ks text="シナリオ起" size=20 width=500 x=30 y=160 color=blue  ]
+[glink storage=scenario03_ep01.ks text="エピソード1" size=20 width=500 x=30 y=220 color=blue  ]
+[glink storage=scenario04_im01kyoko.ks text="幕間・杏子" size=20 width=500 x=30 y=280 color=blue  ]
+[glink storage=scenario05_ep02.ks text="エピソード2" size=20 width=500 x=30 y=340 color=blue  ]
+[glink storage=scenario06_im02mami.ks text="幕間・マミ" size=20 width=500 x=30 y=400 color=blue  ]
+[glink storage=scenario07_ep03.ks text="エピソード3" size=20 width=500 x=30 y=460 color=blue  ]
+[glink storage=scenario08_im03nagisa.ks text="幕間・なぎさ" size=20 width=500 x=30 y=520 color=blue  ]
+[glink storage=scenario09_ep07.ks text="エピソード7" size=20 width=500 x=30 y=580 color=blue  ]
+[glink storage=scenario10_im04sayaka.ks text="幕間・さやか" size=20 width=500 x=30 y=640 color=blue  ]
 
-;[glink storage=scenario11_ep05_01.ks text="エピソード5" size=20 width=500 x=640 y=100 color=blue  ]
-;[glink storage=scenario12_im05madoka.ks text="幕間・マドカ" size=20 width=500 x=640 y=160 color=blue  ]
-;[glink storage=scenario13_ep06.ks text="エピソード6" size=20 width=500 x=640 y=220 color=blue  ]
-;[glink storage=scenario14_ten01.ks text="シナリオ転1" size=20 width=500 x=640 y=280 color=blue  ]
-;[glink storage=scenario15_im06homura.ks text="幕間・ほむら" size=20 width=500 x=640 y=340 color=blue  ]
-;[glink storage=scenario16_ten02.ks text="シナリオ転2" size=20 width=500 x=640 y=400 color=blue  ]
-;[glink storage=scenario17_ketsu.ks text="シナリオ結" size=20 width=500 x=640 y=460 color=blue  ]
-;[glink storage=scenario18_endings.ks text="エンディング" size=20 width=500 x=640 y=520 color=blue  ]
-
-
-;[glink text="テストエリアへ" size=20 width=500 x=640 y=520 color=blue target=*test ]
+[glink storage=scenario11_ep05_01.ks text="エピソード5" size=20 width=500 x=640 y=100 color=blue  ]
+[glink storage=scenario12_im05madoka.ks text="幕間・マドカ" size=20 width=500 x=640 y=160 color=blue  ]
+[glink storage=scenario13_ep06.ks text="エピソード6" size=20 width=500 x=640 y=220 color=blue  ]
+[glink storage=scenario14_ten01.ks text="シナリオ転1" size=20 width=500 x=640 y=280 color=blue  ]
+[glink storage=scenario15_im06homura.ks text="幕間・ほむら" size=20 width=500 x=640 y=340 color=blue  ]
+[glink storage=scenario16_ten02.ks text="シナリオ転2" size=20 width=500 x=640 y=400 color=blue  ]
+[glink storage=scenario17_ketsu.ks text="シナリオ結" size=20 width=500 x=640 y=460 color=blue  ]
+[glink storage=scenario18_endings.ks text="エンディング" size=20 width=500 x=640 y=520 color=blue  ]
 
 
-;[mask_off]
+[glink text="テストエリアへ" size=20 width=500 x=640 y=520 color=blue target=*test ]
+
+
+[mask_off]
 ;デバッグ時はマスクオフを入れcmとジャンプを外す。
 
+[else]
 [cm]
 [jump storage=scenario01_prologue.ks target=*scene01]
+[endif]
 
 [s]
 
@@ -407,7 +410,8 @@
 終了します。
 
 
-[close]
+; [close]
+[eval exp="location.reload()"]
 [s]
 
 
