@@ -351,7 +351,7 @@
 [glink storage=scenario18_endings.ks text="エンディング" size=20 width=500 x=640 y=520 color=blue  ]
 
 
-[glink text="テストエリアへ" size=20 width=500 x=640 y=520 color=blue target=*test ]
+[glink text="テストエリアへ" size=20 width=500 x=640 y=580 color=blue target=*test ]
 
 
 [mask_off]

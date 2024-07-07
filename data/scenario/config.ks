@@ -69,7 +69,7 @@
 
 
 ;未読スキップ
-[ptext layer=1 page=fore text="未読スキップ：" x=40 y=560 size=36 color=black visible=true]
+[ptext layer=1 page=fore text="跳过未读文本：" x=40 y=560 size=36 color=black visible=true]
 [ptext name="text_skip" layer=1 page=fore text="&tf.text_skip" x=280 y=560 size=36 color=black visible=true]
 [button fix="true" target="*skip_off" graphic=config/btn_off.png x=360 y=530 ]
 [button fix="true" target="*skip_on" graphic=config/btn_on.png x=500 y=530 ]
@@ -173,7 +173,7 @@ $(".ch_"+tf.set_ch_speed).css("top",220);
 ;テキストスピード表示
 [position layer="message0" left=10 top=520 width=1240 height=220 page=fore visible=true]
 @layopt layer=message0 visible=true
-テキスト表示テスト
+文本显示测试
 [wait time=1000]
 [er]
 @layopt layer=message0 visible=false

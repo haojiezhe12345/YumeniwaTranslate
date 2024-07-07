@@ -16,7 +16,9 @@ for sheet in wb.worksheets:
                 src = str(row[0].value)
                 tld = str(row[1].value or '')
                 db[sheet.title][src] = tld
-        print(f'{sheet.title:<30} {len([1 for txt in db[sheet.title] if db[sheet.title][txt]]):>3} / {len(db[sheet.title]):<3}')
+        totalNum = len(db[sheet.title])
+        translatedNum = len([1 for txt in db[sheet.title] if db[sheet.title][txt]])
+        print(f'{sheet.title:<30} {translatedNum:>3} / {totalNum:<3}   {translatedNum / totalNum * 100:>3.0f}%')
         db[sheet.title] = dict(sorted(list(db[sheet.title].items()), key=lambda a: len(a[0]), reverse=True))
 
         with open(os.path.join(srcDir, sheet.title), encoding='utf-8') as f:

@@ -348,10 +348,10 @@
 [glink storage=scenario15_im06homura.ks text="幕間・ほむら" size=20 width=500 x=640 y=340 color=blue  ]
 [glink storage=scenario16_ten02.ks text="シナリオ転2" size=20 width=500 x=640 y=400 color=blue  ]
 [glink storage=scenario17_ketsu.ks text="シナリオ結" size=20 width=500 x=640 y=460 color=blue  ]
-[glink storage=scenario18_endings.ks text="エンディング" size=20 width=500 x=640 y=520 color=blue  ]
+[glink storage=scenario18_endings.ks text="结局" size=20 width=500 x=640 y=520 color=blue  ]
 
 
-[glink text="テストエリアへ" size=20 width=500 x=640 y=520 color=blue target=*test ]
+[glink text="功能测试" size=20 width=500 x=640 y=580 color=blue target=*test ]
 
 
 [mask_off]
@@ -367,8 +367,8 @@
 
 *test
 
-[link target=*hanyo]【１】汎用テストへ[endlink][r]
-[link target=*flag]【２】フラグ調整[endlink][r]
+[link target=*hanyo]【１】查看好感度并测试结局[endlink][r]
+[link target=*flag]【２】调整Flag[endlink][r]
 
 [s]
 
@@ -383,31 +383,31 @@
 ;@layopt layer=message0 visible=false
 
 
-終了する場合はウインドウを閉じてください。[p]
+调整后自动重启游戏[p]
 
 
 
-[link target=*select1]【１】クリアフラグON[endlink][r]
-[link target=*select2]【２】クリアフラグOFF[endlink][r]
+[link target=*select1]【１】解锁通关Flag（解锁CG图库）[endlink][r]
+[link target=*select2]【２】锁定通关Flag[endlink][r]
 
 [s]
 
 *select1
 [cm]
-クリアフラグON[l]
+即将设定sf.clear=true[l]
 [eval exp="sf.clear=true"]
 @jump target=*common
 
 *select2
 [cm]
-クリアフラグOFF[l]
+即将设定sf.clear=false[l]
 [eval exp="sf.clear=false"]
 @jump target=*common
 
 *common
 [cm]
 
-終了します。
+正在重启游戏
 
 
 ; [close]
@@ -424,7 +424,7 @@
 
 
 
-ほむらの好感度は[emb exp="f.homulove"]です。[p]
+焰的好感度为[emb exp="f.homulove"][p]
 
 
 [jump storage=scenario18_endings.ks]
