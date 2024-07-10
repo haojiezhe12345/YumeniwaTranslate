@@ -188,7 +188,7 @@ $(".layer_camera").empty();
 [call target="*draw_mail_page"]
 
 [ptext layer=1 name=body text="From：麻美学姐" size=30 x=320 y=100 color=black ]
-[ptext layer=1 name=body text="邮件名：集结到我身边吧  被引导着的宿命（Moirai）纠缠的少女们..." size=30 x=320 y=150 color=black ]
+[ptext layer=1 name=body text="邮件名：集结到我身边吧  被命运（Moirai）引导并戏弄的少女们啊..." size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
 [ptext layer=1 name=body text="最近大家来次聚会吧。" size=30 x=320 y=300 color=black ]
 [ptext layer=1 name=body text="我有想和你们商量的事。" size=30 x=320 y=350 color=black ]
@@ -249,7 +249,7 @@ $(".layer_camera").empty();
 [ptext layer=1 name=body text="From：小焰" size=30 x=320 y=100 color=black ]
 [ptext layer=1 name=body text="邮件名：小番茄" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="小焰放弃种小番茄了吗？" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="给小番茄取名焰的计划，你放弃了吗" size=30 x=320 y=300 color=black ]
 
 [if exp="f.t04==1"]
 [else]
@@ -406,16 +406,16 @@ $(".layer_camera").empty();
 [ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
 [ptext layer=1 name=body text="件名：re：小番茄" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="小番茄不种了，换成玩偶了。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="之前在游戏厅拿到的萨巴特拉，" size=30 x=320 y=350 color=black ]
-[ptext layer=1 name=body text="这是小焰取的名字。" size=30 x=320 y=400 color=black ]
+[ptext layer=1 name=body text="不给小番茄取了，换成玩偶了。" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="给之前在游戏厅拿到的小银虎斑猫。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="取名叫小焰" size=30 x=320 y=400 color=black ]
 
 [else]
 [ptext layer=1 name=body text="To：小焰" size=30 x=320 y=100 color=black ]
 [ptext layer=1 name=body text="件名：re：小番茄" size=30 x=320 y=150 color=black ]
 [ptext layer=1 name=body text="正文：" size=30 x=320 y=250 color=black ]
-[ptext layer=1 name=body text="还有。" size=30 x=320 y=300 color=black ]
-[ptext layer=1 name=body text="被不肯放弃的达也吃掉了。" size=30 x=320 y=350 color=black ]
+[ptext layer=1 name=body text="前进" size=30 x=320 y=300 color=black ]
+[ptext layer=1 name=body text="放弃了，小番茄让达也吃掉了。" size=30 x=320 y=350 color=black ]
 [endif]
 
 ; [freeimage layer=1]
@@ -503,17 +503,17 @@ $(".layer_camera").empty();
 
 [elsif exp="f.rep==3"]
 [glink target="to03bad" text="下次大家一起去卡拉OK" size=20 width="500" y=400 color=pink]
-[glink target="to03good" text="这次我们两人……" size=20 width="500" y=500 color=pink]
+[glink target="to03good" text="下次我们两人……" size=20 width="500" y=500 color=pink]
 [s]
 
 [elsif exp="f.rep==4"]
-[glink target="to04bad" text="还有" size=20 width="500" y=400 color=pink]
-[glink target="to04good" text="小番茄不种，换成玩偶了。" size=20 width="500" y=500 color=pink]
+[glink target="to04bad" text="继续" size=20 width="500" y=400 color=pink]
+[glink target="to04good" text="不给小番茄取了，换成玩偶了。" size=20 width="500" y=500 color=pink]
 [s]
 
 [elsif exp="f.rep==5"]
 [glink target="to05bad" text="即使小焰出手了我也不会告诉你的。" size=20 width="500" y=400 color=pink]
-[glink target="to05good" text="这次就普通弄好吧？" size=20 width="500" y=500 color=pink]
+[glink target="to05good" text="下次就普通弄好吧？" size=20 width="500" y=500 color=pink]
 [s]
 
 [elsif exp="f.rep==6"]
