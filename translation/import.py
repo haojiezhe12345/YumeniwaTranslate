@@ -5,6 +5,9 @@ import openpyxl
 srcDir = 'data/scenario'
 outDir = '../data/scenario'
 
+with open('extracted.json', encoding='utf-8') as f:
+    extracted = json.load(f)
+
 db = {}
 wb = openpyxl.load_workbook(R"F:\Downloads\ゆめのおにわでchasing - 文本汉化表.xlsx")
 
@@ -17,9 +20,13 @@ for sheet in wb.worksheets:
                 tld = str(row[1].value or '')
                 db[sheet.title][src] = tld
         totalNum = len(db[sheet.title])
-        translatedNum = len([1 for txt in db[sheet.title] if db[sheet.title][txt]])
+        translatedNum = len([1 for txt in db[sheet.title] if (db[sheet.title][txt] and db[sheet.title][txt] != '「」')])
         print(f'{sheet.title:<30} {translatedNum:>3} / {totalNum:<3}   {translatedNum / totalNum * 100:>3.0f}%')
         db[sheet.title] = dict(sorted(list(db[sheet.title].items()), key=lambda a: len(a[0]), reverse=True))
+
+        diff = (db[sheet.title].keys() - extracted[sheet.title].keys()).union(extracted[sheet.title].keys() - db[sheet.title].keys())
+        if len(diff) > 0:
+            print('*** Diff:', diff, '\n')
 
         with open(os.path.join(srcDir, sheet.title), encoding='utf-8') as f:
             ks0 = f.read()
