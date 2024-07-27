@@ -142,74 +142,74 @@
 [chara_mod name="homura" face="007"]
 
 #【焰】
-「」[p]
+「别用眼神控诉我啊……」[p]
 
 #
-「」[p]
+没办法。包里应该还有糖果的。[p]
 
 [chara_mod name="homura" face="001"]
 
 #【焰】
-「」[p]
+「这个可以吗。」[p]
 
 [chara_mod name="nagisa" face="002"]
 
 #【渚】
-「」[p]
+「哇，真是太感谢了！恶魔是好恶魔的说！！」[p]
 
 [chara_mod name="homura" face="004"]
 
 #【焰】
-「」[p]
+「好恶魔啊……」[p]
 
 #【渚】
-「」[p]
+「要赶紧吃吃看的说。」[p]
 
 #
-「」[p]
+「一边微微苦笑着，一边大口大口地吃着糖果。小孩子做事真自由。」[p]
 
 [chara_mod name="nagisa" face="001"]
 
 #【渚】
-「」[p]
+「恶魔讨厌麻美吗？」[p]
 
 #【焰】
-「」[p]
+「怎么突然问这个。」[p]
 
 #【渚】
-「」[p]
+「我很少看到恶魔和麻美说话，明明总跟沙耶加和杏子说话。」[p]
 
 #【焰】
-「」[p]
+「因为年级不同，所以本身就很少见面。」[p]
 
 #【渚】
-「」[p]
+「那么，见面的话会说很多话吗？」[p]
 
 #【焰】
-「」[p]
+「也许吧。」[p]
 
 #【渚】
-「」[p]
+「所以你和圆说很多话吗？」[p]
 
 [chara_mod name="homura" face="001"]
 
 #【焰】
-「」[p]
+「……是啊。」[p]
 
 #
-本当に子どもは自由だ。次から次に話の対象が変わる。[p]
-それに私とみんなのこと、いったいどこから見ていたんだか。[p]
+小孩子真的很自由。问题的对象一下子就变了。[p]
+而且我和大家的事，到底是从哪里看的。[p]
 
 [chara_mod name="nagisa" face="002"]
 
 #【渚】
-「」[p]
+「恶魔最喜欢圆的说。」[p]
 
 #【焰】
-「」[p]
+「……为什么这么说？」[p]
 
 #【渚】
-「」[p]
+「因为，圆在的时候恶魔会笑的说。」[p]
 
 [chara_mod name="homura" face="301"]
 
@@ -219,42 +219,42 @@
 [chara_mod name="nagisa" face="001"]
 
 #【渚】
-「」[p]
+「不用害羞的，圆很温柔，渚也最喜欢她了。」[p]
 
 #【焰】
-「」[p]
+「我不是在害羞……」[p]
 
 [chara_mod name="nagisa" face="003"]
 
 #【渚】
-「」[p]
+「没关系，我知道的说。」[p]
 
 #
-したり顔で背中をぽんぽん叩かれてしまった。[p]
-この様子ではなにを言っても聞いてくれなさそう。[p]
+脸上被这小孩打了一巴掌。[p]
+她这个样子说什么都不会听的吧。[p]
 
 [chara_mod name="homura" face="001"]
 
 #【焰】
-「」[p]
+「……那，你现在幸福吗？」[p]
 
 [chara_mod name="nagisa" face="002"]
 
 #【渚】
-「」[p]
+「幸福！麻美很温柔，沙耶加、杏子、圆都很喜欢！！」[p]
 
 #【焰】
-「」[p]
+「是吗，太好了。」[p]
 
 [chara_mod name="nagisa" face="001"]
 
 #【渚】
-「」[p]
+「小渚没有讨厌恶魔哦？」[p]
 
 [chara_mod name="homura" face="004"]
 
 #【焰】
-「」[p]
+「哈哈，谢谢。」[p]
 
 #
 [chara_hide_all]
@@ -267,7 +267,7 @@
 [stopbgm]
 [layopt layer=1 visible=true]
 [playse storage="SE50.ogg"]
-[mtext layer=1 text="メールを受信しました" size=30 x=500 y=350 time=1000 in_effect="fadeInUp" in_sync=true out_effect="fadeOutUp" out_sync=true]
+[mtext layer=1 text="已收到邮件" size=30 x=500 y=350 time=1000 in_effect="fadeInUp" in_sync=true out_effect="fadeOutUp" out_sync=true]
 
 [cm]
 [eval exp="f.f06=1"]

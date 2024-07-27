@@ -28,7 +28,7 @@
 [chara_mod name="madoka" face="002"]
 
 #【圆】
-「早上好，沙耶香，杏子。」[p]
+「早上好，沙耶加，杏子。」[p]
 
 [chara_mod name="sayaka" face="004"]
 
@@ -38,7 +38,7 @@
 [chara_mod name="kyoko" face="003"]
 
 #【杏子】
-「放心吧，沙耶香，我一题都没做。」[p]
+「放心吧，沙耶加，我一题都没做。」[p]
 
 [chara_mod name="sayaka" face="007"]
 
