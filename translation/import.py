@@ -8,7 +8,7 @@ outDir = '../data/scenario'
 with open('extracted.json', encoding='utf-8') as f:
     extracted = json.load(f)
 
-db = {}
+db: dict[str, dict[str, str]] = {}
 wb = openpyxl.load_workbook(R"F:\Downloads\ゆめのおにわでchasing - 文本汉化表.xlsx")
 
 for sheet in wb.worksheets:
@@ -36,6 +36,8 @@ for sheet in wb.worksheets:
                 if not src in ks:
                     raise Exception(src)
                 if tld:
+                    # if (('「' in src and not '「' in tld) or ('」' in src and not '」' in tld)):
+                    #     print(f'Square brackets not added: \n{src}\n{tld}\n')
                     ks = ks.replace(src, tld)
 
             for name, nameTL in [

@@ -64,7 +64,7 @@
 [chara_mod name="nagisa" face="002"]
 
 #【渚】
-是书上写的说，我什么都知道的说。[p]
+「是书上写的说，我什么都知道的说。」[p]
 
 [chara_mod name="homura" face="004"]
 
