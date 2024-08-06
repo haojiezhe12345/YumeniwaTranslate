@@ -508,7 +508,7 @@ $(".layer_camera").empty();
 
 [elsif exp="f.rep==4"]
 [glink target="to04bad" text="继续" size=20 width="500" y=400 color=pink]
-[glink target="to04good" text="不给小番茄取了，换成玩偶了。" size=20 width="500" y=500 color=pink]
+[glink target="to04good" text="不给小番茄取名了，换成玩偶了。" size=20 width="500" y=500 color=pink]
 [s]
 
 [elsif exp="f.rep==5"]
