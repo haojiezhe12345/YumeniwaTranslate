@@ -90,7 +90,7 @@
 [chara_show name="homura" face="103"]
 
 #【焰】
-「圆，振作起来。」[p]
+「圆，振作一点。」[p]
 
 #
 小焰跑过来支撑住了我。[p]
@@ -316,7 +316,7 @@
 
 #
 我终于鼓起勇气向小焰道歉了。[p]
-小焰小幅度地摇了摇头回答。[p]
+小焰轻轻地摇了摇头回答。[p]
 
 [chara_mod name="homura" face="103"]
 
@@ -368,7 +368,7 @@
 [chara_mod name="madoka" face="410"]
 
 #【圆】
-「嘿嘿，那样的话……我，是小焰的新娘？」[p]
+「嘿嘿，那样的话……我，是小焰的老婆？」[p]
 
 #
 [chara_mod name="homura" face="407"]
@@ -394,7 +394,7 @@
 [chara_mod name="madoka" face="104"]
 
 #【圆】
-「是吗……那，就是说不喊我新娘了……」[p]
+「是吗……那，就是说不喊我老婆了……」[p]
 
 #
 [chara_mod name="homura" face="401"]
@@ -414,7 +414,7 @@
 [chara_mod name="homura" face="403"]
 
 #【焰】
-「……如果你喜欢被我称为新娘的话，那是我不好……」[p]
+「……如果你喜欢被我称为老婆的话，那是我不好……」[p]
 「作为道歉，如果你不介意是我的话……」[p]
 
 [chara_mod name="homura" face="404"]
@@ -428,13 +428,13 @@
 [chara_mod name="homura" face="406"]
 
 #【焰】
-「圆是…[l]我的……[l]新、新、新……」[p]
+「圆是…[l]我的……[l]老、老、老……」[p]
 
 #
 [chara_mod name="madoka" face="410"]
 
 #【圆】
-「新？」[p]
+「老？」[p]
 
 
 
@@ -574,13 +574,13 @@
 [chara_show name="sayaka" face="101" time=200]
 
 #【焰】
-「我明白了……模仿猫叫可以吗？」[p]
+「我明白了……学猫叫可以吗？」[p]
 
 #【沙耶加】
 「那倒是也可以。
 [l]
 ……不过，比起这个，我更想听听你的心声。」
-」[p]
+[p]
 
 #
 [chara_mod name="homura" face="101"]
@@ -789,7 +789,7 @@
 「沙耶加……」[p]
 
 #【沙耶加】
-「但是，很遗憾……从现在起，小圆就不是我的新娘了……」[p]
+「但是，很遗憾……从现在起，小圆就不是我的老婆了……」[p]
 
 #
 [chara_show name="homura" face="109" time=200]
@@ -824,7 +824,7 @@
 [chara_mod name="sayaka" face="102" time=200]
 [anim name=sayaka left="+=250" time=600 effect="easeInOutBack"]
 
-[font size=44]你就是我的二号新娘了啊啊啊啊啊！！」
+[font size=44]你就是我的二号老婆了啊啊啊啊啊！！」
 
 [chara_mod name="madoka" face="413" time=200]
 [p]
