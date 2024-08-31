@@ -24,8 +24,8 @@
 - https://madohomu.love/yumeniwa/ (**推荐使用**, 国内自建CDN, 支持手机横屏)
 
 ### 下载离线版
-- [Windows](/releases/latest/download/madohomu_yurigame-win32-ia32.zip)
-- [Linux](/releases/latest/download/madohomu_yurigame-linux-x64.zip)
+- [Windows](https://github.com/haojiezhe12345/YumeniwaTranslate/releases/latest/download/madohomu_yurigame-win32-ia32.zip)
+- [Linux](https://github.com/haojiezhe12345/YumeniwaTranslate/releases/latest/download/madohomu_yurigame-linux-x64.zip)
 - 暂未打包安卓/iOS版, 请使用在线游玩
 
 
@@ -44,15 +44,15 @@
 
 - `/translation` 中的 JSON, Excel 表格和 Python 脚本用于导出/导入游戏文本, 操作方法详见下方
 
-- **特别地:** `/translation/data/scenario` 存放的是日文原文, 用于导入文本时进行替换, 其中部分脚本经过了修改, 以修复在 Tyrano V5 中的bug
+- **特别地:** [`/translation/data/scenario`](translation/data/scenario) 存放的是日文原文, 用于导入文本时进行替换, 其中部分脚本经过了修改, 以修复在 Tyrano V5 中的bug
 
 
 #### 引擎修改说明
 原作对部分游戏引擎进行了修改, 为了确保引擎升级后这部分功能仍能正常工作, 我们做了如下移植:
 
-- 引入原作的系统菜单 `/tyrano/html` 并进行重构, 通过修改 `/tyrano/tyrano.css` 使其布局与配色方案与原作一致
+- 引入原作的系统菜单 [`/tyrano/html`](tyrano/html) 并进行重构, 通过修改 [`/tyrano/tyrano.css`](tyrano/tyrano.css) 使其布局与配色方案与原作一致
 
-- 游戏暂停菜单中的 `查看邮件` 是基于 Tyrano 的 `sleepgame` 实现, 定位到按钮监听代码后, 我们将其移植到了 [kag.menu.js 第68行](tyrano/plugins/kag/kag.menu.js#L68)
+- 游戏暂停菜单中的 `查看邮件` 是基于 Tyrano 的 `sleepgame` 实现, 定位到按钮监听代码后, 我们将其移植到了 [`kag.menu.js` 第68行](tyrano/plugins/kag/kag.menu.js#L68)
 
 
 ### 文本导入方法
