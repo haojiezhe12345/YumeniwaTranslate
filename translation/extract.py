@@ -35,6 +35,7 @@ for fn in os.listdir(srcDir):
             else:
                 r = [
                     r'\[.*text="(.*?)".*\]',
+                    r'\[.*title name="(.*?)".*\]',
                     r'\[link.*\](.*)\[endlink\]',
                     r'\[font.*\](.*)',
                 ]
