@@ -1,7 +1,7 @@
 //ティラノビルダーによる自動ビルド　
 ;global.config_version=4.50
 ;System.title=ティラノスクリプト
-;projectID=madohomu_yurigame
+;projectID=Yumeniwa
 ;ScreenRatio=fix
 ;ScreenCentering=true
 ;useCamera=true

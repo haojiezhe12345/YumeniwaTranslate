@@ -24,8 +24,8 @@
 - https://madohomu.love/yumeniwa/ (**推荐使用**, 国内自建CDN, 支持手机横屏)
 
 ### 下载离线版
-- [Windows](https://github.com/haojiezhe12345/YumeniwaTranslate/releases/latest/download/madohomu_yurigame-win32-ia32.zip)
-- [Linux](https://github.com/haojiezhe12345/YumeniwaTranslate/releases/latest/download/madohomu_yurigame-linux-x64.zip)
+- [Windows](https://github.com/haojiezhe12345/YumeniwaTranslate/releases/latest/download/Yumeniwa-win32-ia32.zip)
+- [Linux](https://github.com/haojiezhe12345/YumeniwaTranslate/releases/latest/download/Yumeniwa-linux-x64.zip)
 - 暂未打包安卓/iOS版, 请使用在线游玩
 
 
