@@ -24,6 +24,7 @@
 - https://madohomu.love/yumeniwa/ (**推荐使用**, 国内自建CDN, 支持手机横屏)
 
 ### 下载离线版
+- [网盘下载 (高速)](https://www.123pan.com/s/ut00Vv-hpbNd)
 - [Windows](https://github.com/haojiezhe12345/YumeniwaTranslate/releases/latest/download/Yumeniwa-win32-ia32.zip)
 - [Linux](https://github.com/haojiezhe12345/YumeniwaTranslate/releases/latest/download/Yumeniwa-linux-x64.zip)
 - 暂未打包安卓/iOS版, 请使用在线游玩
