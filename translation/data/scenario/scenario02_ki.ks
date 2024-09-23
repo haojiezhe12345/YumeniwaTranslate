@@ -1494,7 +1494,7 @@
 [stopbgm]
 [wait time=1000]
 
-[movie storage="OP.webm" skip=true]
+[movie storage="OP.mp4" skip=true]
 
 [wait time=1000]
 
